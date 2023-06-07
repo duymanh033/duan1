@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="700dp"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".fragment.PhanHoiActivity">
+   <com.google.android.material.textfield.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:counterMaxLength="500"
+
+       >
+       <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/edPhanHoi"
+           android:layout_width="match_parent"
+           android:focusable="true"
+           android:hint="Phản hồi của bạn..."
+           android:layout_height="250dp"/>
+   </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gửi"
+            android:id="@+id/btnguiPhanHoi"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"/>
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/btnHuyPhanHoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>

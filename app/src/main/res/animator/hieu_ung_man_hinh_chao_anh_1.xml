@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <!--    tog chạy cùng lúc-->
+    <!--    seq chạy lần lượt-->
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:duration="1500"
+            android:propertyName="x"
+            android:valueTo="700" />
+    </set>
+    <set android:ordering="together">
+        <objectAnimator
+            android:duration="1500"
+            android:propertyName="y"
+            android:valueTo="1200" />
+    </set>
+
+</set>

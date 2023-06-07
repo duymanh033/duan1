@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ChiTietActivity"
+    android:background="@drawable/bg2"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:id="@+id/imgXeChiTiet"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/place"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bogoc_item"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="MÃ XE"
+                android:textColor="#070707"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMaXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="MX"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bogoc_item"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="TÊN XE"
+                android:textColor="#0E0E0E"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTenXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="TX"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@drawable/bogoc_item"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOẠI XE"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:textColor="#070707"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/tvLoaiXe"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="LX"
+                android:layout_marginBottom="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/bogoc_item"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="HÃNG XE"
+                android:layout_marginBottom="5dp"
+                android:textColor="#0E0E0E"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/tvHangXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TX"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bogoc_item"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ĐỘ MỚI"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:textColor="#070707"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/tvTrangThai"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="TT"
+                android:layout_marginBottom="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/bogoc_item"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="BIỂN SỐ"
+                android:layout_marginBottom="5dp"
+                android:textColor="#0E0E0E"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/tvBKS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BSX"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bogoc_item"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DUNG TICH"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:textColor="#070707"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/tvDungTich"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:text="DT"
+                android:layout_marginBottom="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="20dp"
+
+            android:background="@drawable/bogoc_item"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="NĂM SẢN XUẤT"
+                android:layout_marginBottom="5dp"
+                android:textColor="#0E0E0E"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/tvNam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NSX"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bogoc_item"
+
+        >
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="TIỀN THUÊ: "
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textColor="#0F1010"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/tvTienThue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="500.000.000 VND"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnThue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Thuê" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/coler_canh"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgXe"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:src="@drawable/ic_baseline_person_24" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTenXe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên xe"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvLoaiXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Loại xe" />
+
+            <TextView
+                android:id="@+id/tvDungTich"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dung tích" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvHangXe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hãng xe" />
+
+        <TextView
+            android:id="@+id/tvGiaThue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giá thuê : "
+            android:textSize="14dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvChiTiet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Xem chi tiết--->"
+                android:textColor="#2A3CE8"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/tvXoaXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="          Xóa xe"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#ff00"
+                android:drawableEnd="@drawable/delete_forever_24"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_thong_bao_tvYc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yêu cầu thuê xe"
+                android:textSize="18dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/item_thong_bao_tvid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="mã đơn hàng" />
+
+            <TextView
+                android:id="@+id/item_thong_bao_tvuser_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:text="user_name" />
+
+            <TextView
+                android:id="@+id/item_thong_bao_tvmaXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:text="mã xe + ten xe" />
+
+            <TextView
+                android:id="@+id/item_thong_bao_tvThoigian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                android:text="thời gian" />
+
+            <Button
+                android:id="@+id/item_thong_bao_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Duyệt" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

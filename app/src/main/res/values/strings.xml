@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Heaven_Motor</string>
+    <string name="openDWR" />
+    <string name="closeDWR" />
+    <color name="yellow">#FFBF00</color>
+    <color name="brown">#150D00</color>
+    <color name="cream">#FFD38B</color>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

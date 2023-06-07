@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:src="@drawable/place"
+            android:background="@drawable/bo_goc_custom"
+            android:id="@+id/imgUser"/>
+        <ImageView
+            android:id="@+id/imgChup"
+            android:background="@drawable/ic_baseline_camera_alt_24"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Chụp ảnh"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"/>
+        <ImageView
+            android:id="@+id/imgFolder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="Chọn ảnh"
+            android:src="@drawable/ic_baseline_drive_folder_upload_24"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edTenUser"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/edTuoiUser"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edCCCD"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edSDT"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edDiaChi"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật"
+            android:layout_margin="10dp"
+            android:id="@+id/btnCapNhatUser"
+            android:layout_weight="1"/>
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:layout_margin="10dp"
+            android:id="@+id/btnHuy"
+            android:layout_weight="1.2"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/bo_goc_custom2"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/imgXe"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/place" />
+
+    <TextView
+        android:background="#B3D7E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thông tin"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mã xe"
+        android:id="@+id/edMaXe"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edTenXe"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:hint="Tên xe" />
+
+        <EditText
+            android:id="@+id/edGiaThue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:hint="Giá thuê" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edBKS"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:hint="Biển số" />
+
+        <EditText
+            android:id="@+id/edTinhTrang"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:hint="Trạng thái" />
+
+    </LinearLayout>
+
+    <TextView
+        android:background="#B3D7E8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Chi tiết"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="3dp"
+            android:text="Mời chọn loại xe"
+            android:background="#C3BFB5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:background="#C3BFB5"
+            android:text="Mời chọn hãng xe"
+            android:padding="3dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinnerLoaiXe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spinnerHangXe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Chọn năm sản xuẩt"
+            android:background="#C3BFB5"
+            android:layout_width="match_parent"
+            android:padding="3dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:background="#C3BFB5"
+            android:text="Chọn dung tích xe (CC)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:padding="3dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spinnerNam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spinnerDungTich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    -
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/btnSave"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="SAVE"
+            tools:igore="TouchTargetSizeCheck" />
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:id="@+id/btnCancel"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Cancel"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</LinearLayout>

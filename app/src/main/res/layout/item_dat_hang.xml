@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="16dp"
+    android:id="@+id/item_dat_hang_card"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bo_goc_custom"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="centerInside"
+            android:id="@+id/item_dat_hang_img"
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/wave_alpha" />
+
+        <TextView
+            android:id="@+id/item_dat_hang_tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name Xe"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+ <TextView
+            android:id="@+id/item_dat_hang_tvHang"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_dat_hang_tvnam"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/bo_goc_custo3"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/item_dat_hang_tvtinhtrang"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0"
+                android:background="@drawable/bo_goc_custo3"
+                android:gravity="center"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_dat_hang_tvGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:text="Gia/Ngay"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/item_dat_hang_btnCT"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#2196F3"
+            android:text="Thuê xe" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
